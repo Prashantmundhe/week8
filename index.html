@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My To-Do List</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <div class="container">
+    <h1>Things I Need To Do</h1>
+    <div class="input-section">
+      <form id="task-form" style="display: flex; width: 100%; gap: 10px; margin: 0;">
+        <input type="text" id="task-input" placeholder="Type a task..." />
+        <button id="addBtn" type="submit">Add</button>
+      </form>
+    </div>
+    <ul id="task-list">
+      <!-- Tasks will be dynamically added here -->
+    </ul>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
